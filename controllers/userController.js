@@ -1,5 +1,4 @@
-// controllers/userController.js
-const User = require("../models/User");
+const User = require("../models/user");
 
 const getUsers = (req, res) => {
   const { page = 1, limit = 2, search = "", sort = "asc" } = req.query;
